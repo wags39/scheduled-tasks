@@ -15,7 +15,7 @@ weather_params = {
 GMAIL_EMAIL = os.environ.get("GMAIL_EMAIL")
 GMAIL_APP = os.environ.get("GMAIL_APP")
 GMAIL_SMTP = "smtp.gmail.com"
-MY_EMAIL = os.environ.get("RECIPIENT_EMAIL")
+MY_EMAIL = os.environ.get("MY_EMAIL")
 
 response = requests.get(url=OWM, params= weather_params)
 response.raise_for_status()
