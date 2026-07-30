@@ -13,7 +13,7 @@ weather_params = {
 }
 
 GMAIL_EMAIL = os.environ.get("GMAIL_EMAIL")
-GMAIL_APP = os.environ.get("GMAIL_APP")
+GMAIL_APP = os.environ.get("MY_PASSWORD")
 GMAIL_SMTP = "smtp.gmail.com"
 MY_EMAIL = os.environ.get("MY_EMAIL")
 
